@@ -49,6 +49,10 @@ footer {
 nav {
   background-color: #132f03;
   min-width: 100vw;
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 nav ul {
