@@ -1,10 +1,15 @@
+/* Basic Specifications */
 * {
   box-sizing: border-box;
 }
 
-/* Basic Specifications */
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+}
+
 body {
-  border: 2px solid orange;
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -41,13 +46,11 @@ footer {
 
 /* Navigation Specifications */
 nav {
-  border: 1px solid blue;
   background-color: #132f03;
   min-width: 100vw;
 }
 
 nav ul {
-  border: 1px solid lightgreen;
   list-style-type: none;
   display: flex;
   padding-left: 2rem;
@@ -57,7 +60,6 @@ nav ul {
 }
 
 nav li {
-  border: 1px solid magenta;
   font-size: 2rem;
   color: #c5e1b6;
   margin-top: 0.5rem;
@@ -69,7 +71,6 @@ nav li {
 
 /* Hero Specifications */
 .hero {
-  border: 1px red solid;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -81,6 +82,7 @@ nav li {
   flex-direction: column;
   align-items: center;
   position: absolute;
+  text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.6);
 }
 
 .img-wrapper img {
