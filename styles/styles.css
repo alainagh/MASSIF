@@ -24,12 +24,13 @@ main {
 
 aside {
   background: #132f03;
-  color: darkgrey;
+  color: #fff;
   font-size: 2.8rem;
   text-align: center;
   padding: 1rem;
   padding-top: 0.2rem;
   padding-bottom: 0.2rem;
+  max-width: 100vw;
 }
 
 footer {
