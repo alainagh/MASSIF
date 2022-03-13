@@ -187,7 +187,6 @@ nav li {
   color: #132f03;
   box-shadow: 0px 0px 0px 1.5px #132f03;
   transition: background-color 300ms, color 300ms, box-shadow 300ms;
-  max-width: 30px;
 }
 
 .about-button:hover {
