@@ -197,14 +197,14 @@ nav li {
 
 .article-about {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
 .about-main {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 /* Media Specifications */
