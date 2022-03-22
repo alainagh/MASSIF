@@ -10,17 +10,34 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono">
   <link rel="stylesheet" type="text/css" href="styles/styles.css">
+  <script>
+    window.addEventListener("DOMContentLoaded", () => {
+      document.querySelector(".menu-icon").addEventListener("click", () => {
+        document.querySelector(".main-menu").classList.toggle("menu-show");
+      });
+    });
+  </script>
 </head>
 
-<nav>
-  <ul>
-    <li><a href="#">Home</a></li>
-    <li><a href="about/">About</a></li>
-    <li><a href="form/">Form</a></li>
-  </ul>
-</nav>
-
 <body>
+  <div class="main-menu">
+    <div class="menu-icon">
+      <svg viewbox="0 0 60 60" width="60px" height="60px">
+        <line x1="5%" y1="50%" x2="95%" y2="50%" />
+        <line x1="5%" y1="50%" x2="95%" y2="50%" />
+      </svg>
+    </div>
+
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="about/">About</a></li>
+        <li><a href="form/">Form</a></li>
+        <li><a href="#">Reserve</a></li>
+      </ul>
+    </nav>
+  </div>
+
   <div class="hero">
     <div class="img-wrapper">
       <img <img src="images/promising_hero_image_900.jpg" alt="a mountain scene">
@@ -35,11 +52,15 @@
     <article>
       <h2>Beginning Title</h2>
       <p>Ut tristique et egestas quis ipsum suspendisse. Sed nisi lacus sed viverra tellus. Vestibulum lectus mauris
-        ultrices eros in cursus. Suspendisse faucibus interdum posuere lorem ipsum. Iaculis nunc sed augue lacus viverra
-        vitae congue eu consequat. Vitae tempus quam pellentesque nec nam aliquam sem. Morbi tincidunt ornare massa eget
+        ultrices eros in cursus. Suspendisse faucibus interdum posuere lorem ipsum. Iaculis nunc sed augue lacus
+        viverra
+        vitae congue eu consequat. Vitae tempus quam pellentesque nec nam aliquam sem. Morbi tincidunt ornare massa
+        eget
         egestas. Ut tortor pretium viverra suspendisse potenti. Feugiat sed lectus vestibulum mattis ullamcorper velit
-        sed ullamcorper morbi. Euismod elementum nisi quis eleifend quam adipiscing. Nullam vehicula ipsum a arcu cursus
-        vitae congue. Est pellentesque elit ullamcorper dignissim cras. Porta lorem mollis aliquam ut porttitor leo. Et
+        sed ullamcorper morbi. Euismod elementum nisi quis eleifend quam adipiscing. Nullam vehicula ipsum a arcu
+        cursus
+        vitae congue. Est pellentesque elit ullamcorper dignissim cras. Porta lorem mollis aliquam ut porttitor leo.
+        Et
         tortor consequat id porta nibh venenatis. Ipsum a arcu cursus vitae congue mauris rhoncus aenean vel.</p>
     </article>
   </main>
@@ -117,19 +138,25 @@
         magna aliqua. Urna neque viverra justo nec ultrices dui sapien. Lorem ipsum dolor sit amet consectetur
         adipiscing elit ut aliquam. Et odio pellentesque diam volutpat commodo sed egestas egestas fringilla.
         Sollicitudin aliquam ultrices sagittis orci a scelerisque purus semper eget. Amet purus gravida quis blandit
-        turpis cursus. Eget mauris pharetra et ultrices neque ornare aenean euismod elementum. Malesuada fames ac turpis
+        turpis cursus. Eget mauris pharetra et ultrices neque ornare aenean euismod elementum. Malesuada fames ac
+        turpis
         egestas. Sagittis purus sit amet volutpat consequat mauris nunc. Congue eu consequat ac felis. Molestie ac
         feugiat sed lectus vestibulum. Aliquam sem et tortor consequat. Lobortis elementum nibh tellus molestie nunc
         non. Amet nisl suscipit adipiscing bibendum est ultricies integer quis. Pulvinar etiam non quam lacus
         suspendisse faucibus interdum posuere. In fermentum posuere urna nec. Mattis vulputate enim nulla aliquet.</p>
 
       <p>Ut tristique et egestas quis ipsum suspendisse. Sed nisi lacus sed viverra tellus. Vestibulum lectus mauris
-        ultrices eros in cursus. Suspendisse faucibus interdum posuere lorem ipsum. Iaculis nunc sed augue lacus viverra
-        vitae congue eu consequat. Vitae tempus quam pellentesque nec nam aliquam sem. Morbi tincidunt ornare massa eget
+        ultrices eros in cursus. Suspendisse faucibus interdum posuere lorem ipsum. Iaculis nunc sed augue lacus
+        viverra
+        vitae congue eu consequat. Vitae tempus quam pellentesque nec nam aliquam sem. Morbi tincidunt ornare massa
+        eget
         egestas. Ut tortor pretium viverra suspendisse potenti. Feugiat sed lectus vestibulum mattis ullamcorper velit
-        sed ullamcorper morbi. Euismod elementum nisi quis eleifend quam adipiscing. Nullam vehicula ipsum a arcu cursus
-        vitae congue. Est pellentesque elit ullamcorper dignissim cras. Porta lorem mollis aliquam ut porttitor leo. Et
-        tortor consequat id porta nibh venenatis. Ipsum a arcu cursus vitae congue mauris rhoncus aenean vel. In cursus
+        sed ullamcorper morbi. Euismod elementum nisi quis eleifend quam adipiscing. Nullam vehicula ipsum a arcu
+        cursus
+        vitae congue. Est pellentesque elit ullamcorper dignissim cras. Porta lorem mollis aliquam ut porttitor leo.
+        Et
+        tortor consequat id porta nibh venenatis. Ipsum a arcu cursus vitae congue mauris rhoncus aenean vel. In
+        cursus
         turpis massa tincidunt dui ut ornare lectus sit. Vel fringilla est ullamcorper eget nulla facilisi etiam
         dignissim diam. Mattis ullamcorper velit sed ullamcorper. Aliquet nibh praesent tristique magna sit.</p>
     </article>
